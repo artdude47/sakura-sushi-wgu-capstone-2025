@@ -1,0 +1,31 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+*.opendb
+*.VC.db
+
+# Build output
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+*.log
+
+# Test artifacts
+TestResults/
+playwright-report/
+test-results/
+
+# Node (if any)
+node_modules/
+
+# SQLite / local data
+*.db
+*.sqlite
+*.sqlite3
+wwwroot/uploads/
+
+# VS Code
+.vscode/
