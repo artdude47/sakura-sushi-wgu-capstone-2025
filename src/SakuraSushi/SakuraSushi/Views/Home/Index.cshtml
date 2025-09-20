@@ -1,8 +1,16 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+
+    ViewData["Title"] = "Sakura Sushi";
+
+    Layout = "_Layout";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container py-4">
+    <h1 class="display-4">Sakura Sushi</h1>
+    <p class="lead">Fresh nigiri, sashimi, and rolls - view today's specials or reserve a seat.</p>
+
+    <div class="mt-4">
+        <a class="btn btn-primary me-2" asp-controller="Menu" asp-action="Search">Browse Menu</a>
+        <a class="btn btn" asp-controller="Admin" asp-action="Index">Admin</a>
+    </div>
 </div>
