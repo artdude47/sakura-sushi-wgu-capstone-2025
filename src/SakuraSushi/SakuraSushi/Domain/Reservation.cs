@@ -29,5 +29,18 @@
                 CreatedAt = DateTimeOffset.Now
             };
         }
+
+        public void Update(string name, int partySize, DateTimeOffset at, SeatType seatType, string phone)
+        {
+            if (string.IsNullOrEmpty(name)) throw new ArgumentException("Name Required!");
+            if (partySize < 1 || partySize > 10) throw new ArgumentOutOfRangeException(nameof(partySize));
+            if (at <= DateTimeOffset.UtcNow) throw new ArgumentException("Must be in the future");
+            if (string.IsNullOrEmpty(phone)) throw new ArgumentException("Phone Required!");
+            Name = name.Trim();
+            PartySize = partySize;
+            At = at;
+            SeatType = seatType;
+            Phone = phone.Trim();
+        }
     }
 }
