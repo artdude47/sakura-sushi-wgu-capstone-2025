@@ -1,0 +1,47 @@
+﻿@model SakuraSushi.Controllers.BookingVm
+@{
+    ViewData["Title"] = "Request a Reservation";
+    Layout = "_Layout";
+}
+<h1>Request a Reservation</h1>
+
+<form method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="PartySize" class="form-label"></label>
+        <input asp-for="PartySize" class="form-control" />
+        <span asp-validation-for="PartySize" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="AtLocal" class="form-label">Date &amp; Time</label>
+        <input asp-for="AtLocal" type="datetime-local" class="form-control" />
+        <span asp-validation-for="AtLocal" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="SeatType" class="form-label"></label>
+        <select asp-for="SeatType" class="form-select"
+                asp-items="Html.GetEnumSelectList<SakuraSushi.Domain.SeatType>()"></select>
+        <span asp-validation-for="SeatType" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Phone" class="form-label"></label>
+        <input asp-for="Phone" class="form-control" />
+        <span asp-validation-for="Phone" class="text-danger"></span>
+    </div>
+
+    <button class="btn btn-primary" type="submit">Submit Request</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

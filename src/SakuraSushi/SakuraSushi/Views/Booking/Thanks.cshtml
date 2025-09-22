@@ -1,0 +1,15 @@
+﻿@model SakuraSushi.Domain.Reservation
+@{
+    ViewData["Title"] = "Reservation Request Submitted";
+    Layout = "_Layout";
+}
+<h1>Thank you!</h1>
+<p>
+    We received your request for <strong>@Model.Name</strong> on
+    <strong>@Model.At.LocalDateTime.ToString("yyyy-MM-dd HH:mm")</strong>
+    for <strong>@Model.PartySize</strong> at <strong>@Model.SeatType</strong>.
+</p>
+
+<p>We’ll confirm shortly. For changes, call us at (555) 000-0000.</p>
+
+<p><a class="btn btn-secondary" asp-controller="Home" asp-action="Index">Return Home</a></p>

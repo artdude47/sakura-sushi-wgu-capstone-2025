@@ -32,6 +32,14 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/D424/src/SakuraSushi/SakuraSushi/Views/Booking/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/D424/src/SakuraSushi/SakuraSushi/Views/Booking/Thanks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xUaGFua3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/D424/src/SakuraSushi/SakuraSushi/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -40,8 +48,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/D424/src/SakuraSushi/SakuraSushi/Views/MenuItems/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudUl0ZW1zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/D424/src/SakuraSushi/SakuraSushi/Views/Menu/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/D424/src/SakuraSushi/SakuraSushi/Views/Menu/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/D424/src/SakuraSushi/SakuraSushi/Views/Menu/Search.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxTZWFyY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/D424/src/SakuraSushi/SakuraSushi/Views/Reports/ReservationsBySlot.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xSZXNlcnZhdGlvbnNCeVNsb3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/D424/src/SakuraSushi/SakuraSushi/Views/Reservations/Create.cshtml]
