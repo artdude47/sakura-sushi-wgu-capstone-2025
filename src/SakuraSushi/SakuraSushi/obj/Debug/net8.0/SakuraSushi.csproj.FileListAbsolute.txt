@@ -289,4 +289,3 @@ D:\D424\src\SakuraSushi\SakuraSushi\obj\Debug\net8.0\SakuraSushi.genruntimeconfi
 D:\D424\src\SakuraSushi\SakuraSushi\obj\Debug\net8.0\ref\SakuraSushi.dll
 D:\D424\src\SakuraSushi\SakuraSushi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
 D:\D424\src\SakuraSushi\SakuraSushi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\D424\src\SakuraSushi\SakuraSushi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
