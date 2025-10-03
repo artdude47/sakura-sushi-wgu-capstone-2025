@@ -1,12 +1,121 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\D424\\src\\SakuraSushi\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A29D4627-D6E5-4DAF-B9B3-10EF45DDB968}|SakuraSushi\\SakuraSushi.csproj|d:\\d424\\src\\sakurasushi\\sakurasushi\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A29D4627-D6E5-4DAF-B9B3-10EF45DDB968}|SakuraSushi\\SakuraSushi.csproj|solutionrelative:sakurasushi\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A29D4627-D6E5-4DAF-B9B3-10EF45DDB968}|SakuraSushi\\SakuraSushi.csproj|d:\\d424\\src\\sakurasushi\\sakurasushi\\views\\menuitems\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A29D4627-D6E5-4DAF-B9B3-10EF45DDB968}|SakuraSushi\\SakuraSushi.csproj|solutionrelative:sakurasushi\\views\\menuitems\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A29D4627-D6E5-4DAF-B9B3-10EF45DDB968}|SakuraSushi\\SakuraSushi.csproj|d:\\d424\\src\\sakurasushi\\sakurasushi\\views\\reservations\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A29D4627-D6E5-4DAF-B9B3-10EF45DDB968}|SakuraSushi\\SakuraSushi.csproj|solutionrelative:sakurasushi\\views\\reservations\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A29D4627-D6E5-4DAF-B9B3-10EF45DDB968}|SakuraSushi\\SakuraSushi.csproj|d:\\d424\\src\\sakurasushi\\sakurasushi\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A29D4627-D6E5-4DAF-B9B3-10EF45DDB968}|SakuraSushi\\SakuraSushi.csproj|solutionrelative:sakurasushi\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48D3ADC8-81B1-4D7C-BA04-3C031056A1F1}|tests\\UnitTests\\UnitTests.csproj|d:\\d424\\src\\sakurasushi\\tests\\unittests\\menuitemtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48D3ADC8-81B1-4D7C-BA04-3C031056A1F1}|tests\\UnitTests\\UnitTests.csproj|solutionrelative:tests\\unittests\\menuitemtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48D3ADC8-81B1-4D7C-BA04-3C031056A1F1}|tests\\UnitTests\\UnitTests.csproj|d:\\d424\\src\\sakurasushi\\tests\\unittests\\reservationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48D3ADC8-81B1-4D7C-BA04-3C031056A1F1}|tests\\UnitTests\\UnitTests.csproj|solutionrelative:tests\\unittests\\reservationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\D424\\src\\SakuraSushi\\SakuraSushi\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "SakuraSushi\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "D:\\D424\\src\\SakuraSushi\\SakuraSushi\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "SakuraSushi\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-03T23:10:06.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\D424\\src\\SakuraSushi\\SakuraSushi\\Views\\MenuItems\\Create.cshtml",
+              "RelativeDocumentMoniker": "SakuraSushi\\Views\\MenuItems\\Create.cshtml",
+              "ToolTip": "D:\\D424\\src\\SakuraSushi\\SakuraSushi\\Views\\MenuItems\\Create.cshtml",
+              "RelativeToolTip": "SakuraSushi\\Views\\MenuItems\\Create.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-03T23:05:26.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\D424\\src\\SakuraSushi\\SakuraSushi\\Views\\Reservations\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SakuraSushi\\Views\\Reservations\\Edit.cshtml",
+              "ToolTip": "D:\\D424\\src\\SakuraSushi\\SakuraSushi\\Views\\Reservations\\Edit.cshtml",
+              "RelativeToolTip": "SakuraSushi\\Views\\Reservations\\Edit.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvxYAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-03T22:51:34.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\D424\\src\\SakuraSushi\\SakuraSushi\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "SakuraSushi\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\D424\\src\\SakuraSushi\\SakuraSushi\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "SakuraSushi\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-03T22:51:11.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MenuItemTests.cs",
+              "DocumentMoniker": "D:\\D424\\src\\SakuraSushi\\tests\\UnitTests\\MenuItemTests.cs",
+              "RelativeDocumentMoniker": "tests\\UnitTests\\MenuItemTests.cs",
+              "ToolTip": "D:\\D424\\src\\SakuraSushi\\tests\\UnitTests\\MenuItemTests.cs",
+              "RelativeToolTip": "tests\\UnitTests\\MenuItemTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T20:50:54.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReservationTests.cs",
+              "DocumentMoniker": "D:\\D424\\src\\SakuraSushi\\tests\\UnitTests\\ReservationTests.cs",
+              "RelativeDocumentMoniker": "tests\\UnitTests\\ReservationTests.cs",
+              "ToolTip": "D:\\D424\\src\\SakuraSushi\\tests\\UnitTests\\ReservationTests.cs",
+              "RelativeToolTip": "tests\\UnitTests\\ReservationTests.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAowCUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T20:35:52.833Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

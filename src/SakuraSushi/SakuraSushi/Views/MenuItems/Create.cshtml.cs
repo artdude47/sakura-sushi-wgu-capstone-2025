@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace SakuraSushi.Views.Menu
+namespace SakuraSushi.Views.MenuItems
 {
-    public class EditModel : PageModel
+    public class CreateModel : PageModel
     {
         public void OnGet()
         {

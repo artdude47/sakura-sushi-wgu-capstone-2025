@@ -29,8 +29,10 @@
                 <span asp-validation-for="AtLocal" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="SeatType" class="control-label"></label>
-                <select asp-for="SeatType" class="form-control"></select>
+                <label asp-for="SeatType" class="form-label"></label>
+                <select asp-for="SeatType" class="form-select" asp-items="Html.GetEnumSelectList<SeatType>()">
+                    <option value="">-- Select Seating --</option>
+                </select>
                 <span asp-validation-for="SeatType" class="text-danger"></span>
             </div>
             <div class="form-group">
