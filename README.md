@@ -1,8 +1,10 @@
-# Sakura Sushi - WGU SE Capstone (2025)
+# Sakura Sushi — WGU SE Capstone (2025)
 
 A restaurant website with **menu & reservation CRUD**, **admin sign-in**, and **basic reporting**. Built with ASP.NET Core (Blazor Server), EF Core, and PostgreSQL. Containerized with Docker and deployed on Fly.io.
 
-##  Features
+---
+
+## Features
 
 - **Public site**
   - Browse menu by category; item detail pages
@@ -19,7 +21,7 @@ A restaurant website with **menu & reservation CRUD**, **admin sign-in**, and **
 
 ---
 
-##  Tech Stack
+## Tech Stack
 
 - **Backend/UI:** ASP.NET Core (Blazor Server)
 - **Data:** Entity Framework Core + PostgreSQL
@@ -29,7 +31,7 @@ A restaurant website with **menu & reservation CRUD**, **admin sign-in**, and **
 
 ---
 
-##  Quick Start (Local)
+## Quick Start (Local)
 
 ### 1) Prereqs
 - .NET 8 SDK
@@ -37,3 +39,16 @@ A restaurant website with **menu & reservation CRUD**, **admin sign-in**, and **
 
 ### 2) Environment variables
 Create a `.env` file in the repo root:
+
+```env
+# Database
+POSTGRES_USER=sakura
+POSTGRES_PASSWORD=changeme
+POSTGRES_DB=sakura
+
+# App (connection string used by EF Core)
+ConnectionStrings__Default=Host=db;Database=sakura;Username=sakura;Password=changeme;Include Error Detail=true
+
+# Seed admin (used once on first run)
+SEED_ADMIN_EMAIL=admin@sakurasushi.local
+SEED_ADMIN_PASSWORD=ChangeMe1!
