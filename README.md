@@ -52,3 +52,15 @@ ConnectionStrings__Default=Host=db;Database=sakura;Username=sakura;Password=chan
 # Seed admin (used once on first run)
 SEED_ADMIN_EMAIL=admin@sakurasushi.local
 SEED_ADMIN_PASSWORD=ChangeMe1!
+```
+
+### 3) Run with Docker (recommended)
+```bash
+docker compose up --build
+# app: http://localhost:8080
+```
+
+### 4) First-run setup (auto)
+- DB migrations apply at startup
+- Seed data loads
+- Admin user is created from env vars
